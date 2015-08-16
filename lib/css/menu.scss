@@ -1,0 +1,28 @@
+@import 'global';
+
+/**
+ * Foundation customizations
+ */
+
+// Always have the top bar be in full browser width
+// Here we define the lower and upper bounds for each media size
+$small-range: (0em, 1em); /* 0, 640px */
+$medium-range: (1.1em, 2em); /* 641px, 1024px */
+$large-range: (2.1em, 90em); /* 1025px, 1440px */
+$xlarge-range: (90.063em, 120em); /* 1441px, 1920px */
+$xxlarge-range: (120.063em); /* 1921px */
+
+$base-font-size: 100% !default;
+
+@import '../bower/bootstrap/dist/css/bootstrap.css';
+@import '../bower/font-awesome/css/font-awesome.css';
+
+body {
+    min-width: 250px;
+}
+
+// don't show a blurry border around links
+a,
+a:focus { outline: none; }
+
+.mg-r { margin-right: 10px; }

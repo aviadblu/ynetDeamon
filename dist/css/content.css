@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+}
+
+/**
+ * We need to overwrite the width set by GitHub on the branches
+ * page because when we add our button, it throws off the alignment
+ */
+
+.branch-details {
+  width: 480px !important;
+}

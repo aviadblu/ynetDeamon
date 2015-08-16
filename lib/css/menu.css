@@ -1,0 +1,25 @@
+@import url(../bower/bootstrap/dist/css/bootstrap.css);
+@import url(../bower/font-awesome/css/font-awesome.css);
+html,
+body {
+  margin: 0; }
+
+/**
+ * Foundation customizations
+ */
+/* 0, 640px */
+/* 641px, 1024px */
+/* 1025px, 1440px */
+/* 1441px, 1920px */
+/* 1921px */
+body {
+  min-width: 250px; }
+
+a,
+a:focus {
+  outline: none; }
+
+.mg-r {
+  margin-right: 10px; }
+
+/*# sourceMappingURL=menu.css.map */
